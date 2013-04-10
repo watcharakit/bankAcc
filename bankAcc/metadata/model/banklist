@@ -1,0 +1,131 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "banklist"
+    },
+    "designerId": "9550311c-7937-4f99-bf92-c8e8a792b9a7",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "BankAccount",
+                "designer|userClassName": "MyField2"
+            },
+            "designerId": "06825955-0894-4828-9128-0f2cbc15cf42"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Date",
+                "designer|userClassName": "MyField3"
+            },
+            "designerId": "c7ee35ed-35e8-444d-8097-6b58e1e671ef"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Time",
+                "designer|userClassName": "MyField4"
+            },
+            "designerId": "85e76128-245e-499e-bd11-245451e74ade"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Dep_no",
+                "designer|userClassName": "MyField5"
+            },
+            "designerId": "de5d66cd-978a-4580-9e73-84a169c0d0ff"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Withdrawal",
+                "designer|userClassName": "MyField6"
+            },
+            "designerId": "0ce12cd7-0943-4ebc-bafe-372ea051c0b3"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Deposit",
+                "designer|userClassName": "MyField7"
+            },
+            "designerId": "fc610f16-3872-4ed2-93da-5d435bb97bd8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Mach_no",
+                "designer|userClassName": "MyField8"
+            },
+            "designerId": "7a9badfa-c87b-40ce-ac81-50b00d306013"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Member_id",
+                "designer|userClassName": "MyField9"
+            },
+            "designerId": "a6b0c28f-349a-4c3d-936a-ca1d51cc5a36"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Transaction_no",
+                "designer|userClassName": "MyField10"
+            },
+            "designerId": "1daedb3c-be2f-4dec-9fc7-d18d44987da2"
+        }
+    ]
+}

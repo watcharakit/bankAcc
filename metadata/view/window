@@ -1,0 +1,136 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 383,
+        "id": "window",
+        "width": 361,
+        "designer|userClassName": "window",
+        "designer|userAlias": "Window",
+        "title": "My Window"
+    },
+    "designerId": "1cc4e17a-5513-4a4d-a370-b206e4c4c4d4",
+    "cn": [
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "BankAccount",
+                "designer|userClassName": "MyComboBox2",
+                "fieldLabel": "Bank Accunt",
+                "displayField": "name",
+                "store": "bankAccStore"
+            },
+            "designerId": "d6b1723a-80f4-48c2-b0cf-4c0d07893530"
+        },
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Date",
+                "designer|userClassName": "MyDateField1",
+                "fieldLabel": "Date"
+            },
+            "designerId": "3306a573-f373-4dd8-926a-652c7b403d8e"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Dep_no",
+                "designer|userClassName": "MyTextField3",
+                "fieldLabel": "Dep NO"
+            },
+            "designerId": "d29b4e25-c51c-4537-83e4-bee7f270b8c8"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Type",
+                "designer|userClassName": "MyComboBox3",
+                "fieldLabel": "Type",
+                "displayField": "nameType",
+                "store": "typeAmountStore"
+            },
+            "designerId": "4ee573d0-2b2d-4743-a551-a902c1f71ed8"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Mach_no",
+                "designer|userClassName": "MyTextField5",
+                "fieldLabel": "Match NO"
+            },
+            "designerId": "a8409a7c-4ec4-4ed6-a776-b2658ddd4d31"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Amount",
+                "designer|userClassName": "MyTextField4",
+                "fieldLabel": "Amount"
+            },
+            "designerId": "e63191bf-4792-4235-8d76-fecaf3a855e4"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Save",
+                "width": 43,
+                "designer|userClassName": "MyButton1",
+                "text": "save"
+            },
+            "designerId": "5b225458-6672-4aff-b6a5-bc3d4617fcc3"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Closed",
+                "designer|userClassName": "MyButton2",
+                "text": "Closed"
+            },
+            "designerId": "666a0df0-38cf-44f5-af4d-3e02cd231f7f"
+        }
+    ]
+}

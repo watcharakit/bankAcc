@@ -1,0 +1,122 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 502,
+        "width": 733,
+        "designer|userClassName": "MyPanel",
+        "designer|userAlias": "mypanel",
+        "title": "My Panel"
+    },
+    "designerId": "7f82b96a-0fc2-48e9-9902-f295a423ada4",
+    "cn": [
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "autoRender": null,
+                "designer|userClassName": "MyComboBox",
+                "designer|displayName": "bankAcc",
+                "fieldLabel": "Bank Account",
+                "readOnly": null,
+                "displayField": "name",
+                "queryMode": null,
+                "store": "bankStore",
+                "valueField": "id"
+            },
+            "designerId": "3261d875-de83-4560-9d96-918464b6de25"
+        },
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDateField",
+                "designer|displayName": "date",
+                "fieldLabel": "Date"
+            },
+            "designerId": "360caf89-971b-429a-9cca-53ca64efd15d"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTextField",
+                "designer|displayName": "depNo",
+                "fieldLabel": "DepNO"
+            },
+            "designerId": "9e333eaa-d004-4f7e-8531-8a4f813fe5e1"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTextField1",
+                "designer|displayName": "withdrawal",
+                "fieldLabel": "Withdrawal"
+            },
+            "designerId": "790c7ff6-d6f5-47ac-931f-ee428f129696"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTextField2",
+                "designer|displayName": "matchno",
+                "fieldLabel": "MatchNO"
+            },
+            "designerId": "0c7cfe51-32e7-483a-a310-d8a1290e8a4b"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTextField3",
+                "designer|displayName": "amount",
+                "fieldLabel": "Amount"
+            },
+            "designerId": "3abb3599-6781-4e47-8172-607e2aaf42f6"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton",
+                "designer|displayName": "add",
+                "text": "Add"
+            },
+            "designerId": "01436a0e-b329-4dac-a6aa-1a4a7fefbe74"
+        }
+    ]
+}

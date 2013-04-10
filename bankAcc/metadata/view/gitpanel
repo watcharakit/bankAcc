@@ -1,0 +1,149 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 754,
+        "designer|userClassName": "gitpanel",
+        "designer|userAlias": "gitpanel",
+        "title": "My Grid Panel"
+    },
+    "designerId": "65ef92ec-ffc6-4dc0-aec2-5329cba7ad02",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn",
+                "dataIndex": "string",
+                "text": "Bank Account"
+            },
+            "designerId": "fae78f56-87e2-4981-b03a-bd80f3c0f60e"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDateColumn",
+                "dataIndex": "date",
+                "text": "Date"
+            },
+            "designerId": "ee84d358-dcdf-47c9-92e7-09e5f444cf00"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn6",
+                "text": "Time"
+            },
+            "designerId": "c0ab3e36-a313-45ce-beb8-8cc1ba007a37"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyNumberColumn",
+                "text": "Dep_no"
+            },
+            "designerId": "d26c54c2-c082-4750-a0d9-9619219f0dc5"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn2",
+                "text": "Withdrawal"
+            },
+            "designerId": "8a947b5f-983e-495d-bf39-8624aaac5241"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn3",
+                "text": "Deposit"
+            },
+            "designerId": "a9c91082-2d8b-4db0-8626-8cb9bb6bdc34"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "text": "mach_no"
+            },
+            "designerId": "b148cd61-49b1-4df6-a3c6-5f609b80e9a7"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn4",
+                "text": "Member_id"
+            },
+            "designerId": "48853034-18f8-4a30-9716-6d6564aa00ff"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn5",
+                "text": "Transaction_no"
+            },
+            "designerId": "6156087b-5dba-49d0-b5ff-78b5623981bd"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGridView"
+            },
+            "designerId": "eefcb295-4bd0-4b4a-9a41-4813493cf6ca"
+        }
+    ]
+}

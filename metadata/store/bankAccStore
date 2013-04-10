@@ -1,0 +1,43 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "bankAcc",
+        "storeId": "bankAccStore",
+        "designer|userClassName": "bankAccStore"
+    },
+    "designerId": "728951c9-bd33-42b5-9dec-be76644c2da7",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy1",
+                "url": "data/bankName.json"
+            },
+            "designerId": "7ca1854f-8c60-4109-ad9c-4b332c871ee2",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader1"
+                    },
+                    "designerId": "58ba8acd-5438-4f8d-b472-774c75fb5511"
+                }
+            ]
+        }
+    ]
+}

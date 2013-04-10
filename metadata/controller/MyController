@@ -1,0 +1,220 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController"
+    },
+    "designerId": "36754b5f-00ff-4342-86e7-f02b7554a8a7",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "fnSelectAdd",
+                "fn": "fnSelectAdd",
+                "designer|params": [
+                    "type"
+                ],
+                "implHandler": [
+                    "var store= Ext.getStore('bankListStore'),\r",
+                    "    model= MyApp.model.banklist,\r",
+                    "    addAmount=Ext.getCmp('amount').value,\r",
+                    "    //form = Ext.getCmp(\"fromList\").getForm();\r",
+                    "    addName = Ext.getCmp('bankacc').rawValue,\r",
+                    "    addDate = Ext.getCmp('date').value,\r",
+                    "    addDepno= Ext.getCmp('depno').value,\r",
+                    "    addMachNo=Ext.getCmp('matchno').value,\r",
+                    "    addAmount=Ext.getCmp('amount').value;\r",
+                    "\r",
+                    "if(type == 'Deposit'){\r",
+                    "    var list = new model({\r",
+                    "        BankAccount:addName,\r",
+                    "        Date:addDate,\r",
+                    "        Dep_no:addDepno,\r",
+                    "        Deposit:addAmount,\r",
+                    "        Withdrawal:'0.00',\r",
+                    "        Mach_no:addMachNo\r",
+                    "    });\r",
+                    "    store.add(list);\r",
+                    "}else{\r",
+                    "    var list = new model({\r",
+                    "        BankAccount:addName,\r",
+                    "        Date:addDate,\r",
+                    "        Dep_no:addDepno,\r",
+                    "        Deposit:'0.00',\r",
+                    "        Withdrawal:addAmount,\r",
+                    "        Mach_no:addMachNo\r",
+                    "    });\r",
+                    "    store.add(list);\r",
+                    "}\r",
+                    "\r",
+                    "/*var form = Ext.getCmp('fromList').getForm().getValues();\r",
+                    "store.add(form);*/"
+                ]
+            },
+            "designerId": "40f84320-3ff9-4bfa-a98c-81fbab3ada53"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onButtonClick1",
+                "fn": "onButtonClick1",
+                "implHandler": [
+                    "this.editStore();"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Button",
+                "designer|controlQuery": "Window #Save"
+            },
+            "designerId": "60b4b84c-89d2-4e53-9eab-20a0d99fbd9b"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "loadWindown",
+                "fn": "loadWindown",
+                "designer|params": [
+                    "window"
+                ],
+                "implHandler": [
+                    "var Window = MyApp.view.window,\r",
+                    "    showWindown = new Window;\r",
+                    "\r",
+                    "showWindown.show();\r",
+                    "for (prop in window.raw){\r",
+                    "    //console.log(prop);\r",
+                    "    if(prop != 'id'&& prop != 'Withdrawal' && prop != 'Deposit')\r",
+                    "    Ext.getCmp(prop).setValue(window.data[prop]);\r",
+                    "}"
+                ]
+            },
+            "designerId": "edd3a8ac-0064-470d-8203-7b4d8af3b08d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onButtonClick",
+                "fn": "onButtonClick",
+                "implHandler": [
+                    "var store= Ext.getStore('bankListStore'),\r",
+                    "    model= MyApp.model.banklist,\r",
+                    "    //console.log(store);\r",
+                    "\r",
+                    "    addType = Ext.getCmp('type').rawValue;\r",
+                    "\r",
+                    "//console.log(form.getValues());\r",
+                    "this.fnSelectAdd(addType);\r",
+                    "\r",
+                    "//this.fnSelect(addType);\r",
+                    "\r",
+                    "/*banklistStore.add(new banklist({\r",
+                    "Date:'12/10/1111',\r",
+                    "Dep_no:'2222',\r",
+                    "Witdrawal:'2000'\r",
+                    "}));*/\r",
+                    "\r",
+                    "/*console.log(Ext.getCmp('bankacc').rawValue);\r",
+                    "console.log(Ext.getCmp('date').value);\r",
+                    "console.log(Ext.getCmp('depno').value);\r",
+                    "console.log(Ext.getCmp('withdrawal').value);\r",
+                    "console.log(Ext.getCmp('amount').value);*/\r",
+                    "\r",
+                    "//var form = Ext.getCmp(\"fromList\").getForm().getValue();"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Button",
+                "designer|controlQuery": "#add"
+            },
+            "designerId": "6d2c3126-1b3b-424b-9509-d237ab14d3c5"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "clickcolumn",
+                "fn": "clickcolumn",
+                "designer|params": [
+                    "column,action,view, rowIndex, colIndex, item, e"
+                ],
+                "implHandler": [
+                    "var store =  Ext.getStore('bankListStore');\r",
+                    "//var rec = view.getRecords(view.getNodes())[rowIndex];\r",
+                    "store.removeAt(rowIndex); "
+                ],
+                "name": "itemclick",
+                "scope": "me",
+                "designer|controlQuery": "gridShowList actioncolumn"
+            },
+            "designerId": "fd0fdcb7-d230-4675-9dd8-724b2c9fbcf3"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "loedWindow",
+                "fn": "loedWindow",
+                "implHandler": [
+                    "this.loadWindown(record);"
+                ],
+                "name": "select",
+                "scope": "me",
+                "designer|targetType": "Ext.grid.Panel",
+                "designer|controlQuery": "gridShowList"
+            },
+            "designerId": "f52c7d55-18b9-406a-8d40-de4352af74f3"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "editStore",
+                "fn": "editStore",
+                "implHandler": [
+                    "for (prop in window.raw){\r",
+                    "    \r",
+                    "}\r",
+                    "\r",
+                    ""
+                ]
+            },
+            "designerId": "3e59eead-1cea-4968-acd9-97046e9a1cb8"
+        }
+    ]
+}

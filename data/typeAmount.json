@@ -1,0 +1,10 @@
+[
+	{
+		"nameType":"Deposit",
+		"id":"1"
+	},
+	{
+		"nameType":"Withdrawal",
+		"id":"2"
+	}
+]

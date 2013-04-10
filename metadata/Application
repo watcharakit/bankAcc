@@ -1,0 +1,32 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "bankAcc",
+            "banklist",
+            "typeAmount"
+        ],
+        "stores": [
+            "typeAmountStore",
+            "bankAccStore",
+            "bankListStore"
+        ],
+        "views": [
+            "MyViewport",
+            "fromList",
+            "gridShowList",
+            "window"
+        ],
+        "autoCreateViewport": true,
+        "controllers": [
+            "MyController"
+        ],
+        "name": "MyApp"
+    },
+    "designerId": "application"
+}

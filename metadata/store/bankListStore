@@ -1,0 +1,44 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "banklist",
+        "storeId": "bankListStore",
+        "designer|userClassName": "bankListStore"
+    },
+    "designerId": "a0c18ba8-ace9-4a16-afd9-bb51bd4cbac7",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy2",
+                "url": "data/banklist.json"
+            },
+            "designerId": "2efa21ff-922b-436b-8a81-06ed181651c7",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader2"
+                    },
+                    "designerId": "a18a796c-daf1-4b27-b4a0-e166a3037e0a"
+                }
+            ]
+        }
+    ]
+}

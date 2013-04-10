@@ -1,0 +1,96 @@
+{
+    "name": "bankAcc",
+    "settings": {},
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 894,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000499,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "3cb4b3c7-ab23-43e6-b0d5-fc48c0409c11": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "7f82b96a-0fc2-48e9-9902-f295a423ada4": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js"
+            ],
+            "className": "MyPanel"
+        },
+        "65ef92ec-ffc6-4dc0-aec2-5329cba7ad02": {
+            "paths": [
+                "metadata/view/gitpanel",
+                "app/view/override/gitpanel.js",
+                "app/view/gitpanel.js"
+            ],
+            "className": "gitpanel"
+        },
+        "2f742358-aaf9-45b0-aaac-384dae8aec24": {
+            "paths": [
+                "metadata/store/bankStore",
+                "app/store/override/bankStore.js",
+                "app/store/bankStore.js"
+            ],
+            "className": "bankStore"
+        },
+        "acb6c463-cff7-478c-b205-253b4eb358dd": {
+            "paths": [
+                "metadata/model/bankAcc",
+                "app/model/override/bankAcc.js",
+                "app/model/bankAcc.js"
+            ],
+            "className": "bankAcc"
+        },
+        "0c82f016-a14e-4755-ae21-7328205629d3": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "2889ee14-96d1-448c-9d50-86d283381b69": {
+            "paths": [
+                "metadata/store/banklist",
+                "app/store/override/banklist.js",
+                "app/store/banklist.js"
+            ],
+            "className": "banklist"
+        },
+        "9550311c-7937-4f99-bf92-c8e8a792b9a7": {
+            "paths": [
+                "metadata/model/banklist",
+                "app/model/override/banklist.js",
+                "app/model/banklist.js"
+            ],
+            "className": "banklist"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "3cb4b3c7-ab23-43e6-b0d5-fc48c0409c11",
+            "7f82b96a-0fc2-48e9-9902-f295a423ada4",
+            "65ef92ec-ffc6-4dc0-aec2-5329cba7ad02"
+        ],
+        "store": [
+            "2f742358-aaf9-45b0-aaac-384dae8aec24",
+            "2889ee14-96d1-448c-9d50-86d283381b69"
+        ],
+        "controller": [],
+        "model": [
+            "acb6c463-cff7-478c-b205-253b4eb358dd",
+            "9550311c-7937-4f99-bf92-c8e8a792b9a7"
+        ],
+        "resource": [
+            "0c82f016-a14e-4755-ae21-7328205629d3"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

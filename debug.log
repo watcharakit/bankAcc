@@ -1,0 +1,43 @@
+[6088:5964:0403/152004:24375249:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152009:24380273:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152014:24385280:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152019:24390288:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152024:24395295:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152029:24400303:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152034:24405311:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152039:24410318:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152044:24415326:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152049:24420334:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152054:24425341:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152059:24430349:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152104:24435357:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152109:24440364:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152114:24445372:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152119:24450395:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152124:24455418:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152129:24460426:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152134:24465433:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152139:24470441:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152144:24475449:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152149:24480456:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152154:24485464:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152159:24490472:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152204:24495479:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152209:24500487:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152214:24505495:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152219:24510502:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:5964:0403/152224:24515510:WARNING:dns_config_service_win.cc(484)] Failed to read DnsConfig.
+[6088:6000:0403/165518:30088880:ERROR:window_impl.cc(55)] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+[5444:6528:0404/160011:26994974:ERROR:cache_util_win.cc(43)] Unable to move the cache: 5
+[5444:6528:0404/160011:26994974:ERROR:backend_impl.cc(134)] Unable to move cache folder C:\Users\Deuanz\AppData\Local\Sencha\Sencha Architect 2.2\Cache to C:\Users\Deuanz\AppData\Local\Sencha\Sencha Architect 2.2\old_Cache_000
+[5444:6528:0404/160011:26994974:ERROR:backend_impl.cc(221)] Unable to create cache
+[5444:912:0404/161536:27919920:ERROR:window_impl.cc(55)] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+[6640:3084:0404/182540:35504922:ERROR:window_impl.cc(55)] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+[4400:4480:0405/145234:22536684:ERROR:render_widget_host_impl.cc(1839)] We seem to have a different key type sent from the renderer. (7 vs. 10). Ignoring event.
+[4400:4480:0405/145234:22536762:ERROR:render_widget_host_impl.cc(1836)] Got a KeyEvent back from the renderer but we don't seem to have sent it to the renderer!
+[4400:4480:0405/145234:22537339:ERROR:render_widget_host_impl.cc(1836)] Got a KeyEvent back from the renderer but we don't seem to have sent it to the renderer!
+[4400:6948:0405/174149:32691928:ERROR:proxy_resolver_winhttp.cc(94)] WinHttpGetProxyForUrl failed: 12006
+[4400:6948:0405/174814:33076845:ERROR:proxy_resolver_winhttp.cc(94)] WinHttpGetProxyForUrl failed: 12006
+[4400:6948:0405/174816:33078873:ERROR:proxy_resolver_winhttp.cc(94)] WinHttpGetProxyForUrl failed: 12006
+[4400:4480:0405/174816:33079185:ERROR:window_impl.cc(55)] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
+[3252:3192:0409/180553:33765870:ERROR:window_impl.cc(55)] Failed to unregister class Chrome_WidgetWin_0. Error = 1412

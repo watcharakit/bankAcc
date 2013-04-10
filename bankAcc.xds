@@ -1,0 +1,140 @@
+{
+    "name": "bankAcc",
+    "settings": {},
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 894,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000499,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "3cb4b3c7-ab23-43e6-b0d5-fc48c0409c11": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "7f82b96a-0fc2-48e9-9902-f295a423ada4": {
+            "paths": [
+                "metadata/view/fromList",
+                "app/view/override/fromList.js",
+                "app/view/fromList.js"
+            ],
+            "className": "fromList"
+        },
+        "65ef92ec-ffc6-4dc0-aec2-5329cba7ad02": {
+            "paths": [
+                "metadata/view/gridShowList",
+                "app/view/override/gridShowList.js",
+                "app/view/gridShowList.js"
+            ],
+            "className": "gridShowList"
+        },
+        "acb6c463-cff7-478c-b205-253b4eb358dd": {
+            "paths": [
+                "metadata/model/bankAcc",
+                "app/model/override/bankAcc.js",
+                "app/model/bankAcc.js"
+            ],
+            "className": "bankAcc"
+        },
+        "0c82f016-a14e-4755-ae21-7328205629d3": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "9550311c-7937-4f99-bf92-c8e8a792b9a7": {
+            "paths": [
+                "metadata/model/banklist",
+                "app/model/override/banklist.js",
+                "app/model/banklist.js"
+            ],
+            "className": "banklist"
+        },
+        "bbf59815-e08c-4964-86ae-b848f845e390": {
+            "paths": [
+                "metadata/model/typeAmount",
+                "app/model/override/typeAmount.js",
+                "app/model/typeAmount.js"
+            ],
+            "className": "typeAmount"
+        },
+        "b2353b0a-fb43-46d9-be2c-9a5410a65d78": {
+            "paths": [
+                "metadata/store/typeAmountStore",
+                "app/store/override/typeAmountStore.js",
+                "app/store/typeAmountStore.js"
+            ],
+            "className": "typeAmountStore"
+        },
+        "728951c9-bd33-42b5-9dec-be76644c2da7": {
+            "paths": [
+                "metadata/store/bankAccStore",
+                "app/store/override/bankAccStore.js",
+                "app/store/bankAccStore.js"
+            ],
+            "className": "bankAccStore"
+        },
+        "a0c18ba8-ace9-4a16-afd9-bb51bd4cbac7": {
+            "paths": [
+                "metadata/store/bankListStore",
+                "app/store/override/bankListStore.js",
+                "app/store/bankListStore.js"
+            ],
+            "className": "bankListStore"
+        },
+        "36754b5f-00ff-4342-86e7-f02b7554a8a7": {
+            "paths": [
+                "metadata/controller/MyController",
+                "app/controller/override/MyController.js",
+                "app/controller/MyController.js"
+            ],
+            "className": "MyController"
+        },
+        "411e31ed-99ed-461f-85d3-063c2799590d": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "1cc4e17a-5513-4a4d-a370-b206e4c4c4d4": {
+            "paths": [
+                "metadata/view/window",
+                "app/view/override/window.js",
+                "app/view/window.js"
+            ],
+            "className": "window"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "3cb4b3c7-ab23-43e6-b0d5-fc48c0409c11",
+            "7f82b96a-0fc2-48e9-9902-f295a423ada4",
+            "65ef92ec-ffc6-4dc0-aec2-5329cba7ad02",
+            "1cc4e17a-5513-4a4d-a370-b206e4c4c4d4"
+        ],
+        "store": [
+            "b2353b0a-fb43-46d9-be2c-9a5410a65d78",
+            "728951c9-bd33-42b5-9dec-be76644c2da7",
+            "a0c18ba8-ace9-4a16-afd9-bb51bd4cbac7"
+        ],
+        "controller": [
+            "36754b5f-00ff-4342-86e7-f02b7554a8a7"
+        ],
+        "model": [
+            "acb6c463-cff7-478c-b205-253b4eb358dd",
+            "9550311c-7937-4f99-bf92-c8e8a792b9a7",
+            "bbf59815-e08c-4964-86ae-b848f845e390"
+        ],
+        "resource": [
+            "0c82f016-a14e-4755-ae21-7328205629d3",
+            "411e31ed-99ed-461f-85d3-063c2799590d"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
